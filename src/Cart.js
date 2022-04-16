@@ -23,7 +23,7 @@ function loadScript(src) {
     document.body.appendChild(script);
   });
 }
-const __DEV__ = document.domain === "equipmentp-rental-portal.herokuapp";
+// const __DEV__ = document.domain === "equipmentp-rental-portal.herokuapp";
 
 export function Cart({ setCart }) {
   const history = useHistory();
@@ -95,7 +95,7 @@ export function Cart({ setCart }) {
     console.log(data);
 
     const options = {
-      key: __DEV__ ? "rzp_test_6fHFrUpcWB8dL5" : "PRODUCTION_KEY", // Enter the Key ID generated from the Dashboard
+      key: "rzp_test_6fHFrUpcWB8dL5", // Enter the Key ID generated from the Dashboard
       amount: data.amount.toString(),
       currency: data.currency,
       name: "Equipment_Rental",
