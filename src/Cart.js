@@ -23,7 +23,7 @@ function loadScript(src) {
     document.body.appendChild(script);
   });
 }
-const __DEV__ = document.domain === "localhost";
+const __DEV__ = document.domain === "equipmentp-rental-portal.herokuapp";
 
 export function Cart({ setCart }) {
   const history = useHistory();
