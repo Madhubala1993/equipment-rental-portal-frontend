@@ -171,7 +171,7 @@ function CartDisplay({ equipment }) {
           >
             -
           </Button>
-          {"       "} {equipment.qty} {"      "}
+          {equipment.qty} days
           <Button
             variant="outlined"
             onClick={() => updateCart({ equipment, action: "increment" })}

@@ -199,7 +199,7 @@ function MailBox() {
           >
             <InputBase
               sx={{ ml: 1, flex: 1 }}
-              placeholder="Search Google Maps"
+              placeholder=""
               inputProps={{ "aria-label": "Enter yout email" }}
             />
 
